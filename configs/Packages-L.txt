@@ -36,10 +36,10 @@ CONFIG_PACKAGE_luci-app-ttyd=y
 
 
 # 流量统计(可能会有冲突)
-CONFIG_PACKAGE_luci-app-nlbwmon=y
-CONFIG_PACKAGE_luci-app-statistics=n
-CONFIG_PACKAGE_luci-app-vnstat2=n
-CONFIG_PACKAGE_luci-app-wrtbwmon=n
+# CONFIG_PACKAGE_luci-app-nlbwmon is not set
+# CONFIG_PACKAGE_luci-app-statistics is not set
+# CONFIG_PACKAGE_luci-app-vnstat2 is not set
+# CONFIG_PACKAGE_luci-app-wrtbwmon is not set
 
 # 内核模块调整
 CONFIG_PACKAGE_kmod-usb-net-rndis=y
