@@ -119,6 +119,7 @@ jobs:
         cd openwrt
         ./scripts/feeds update -a
         ./scripts/feeds install -a
+        ./scripts/feeds install -f
 
     - name: 导入补丁和配置 & 执行脚本
       run: |
