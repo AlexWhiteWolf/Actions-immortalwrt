@@ -29,13 +29,13 @@ env:
   # 修改 REPO_BRANCH 来达到更改编译版本
   PLATFORM_FILE: configs/Target-filogic.txt
   CONFIG_FILE: configs/Packages.txt
-  # CONFIG_5G: configs/Packages-5G.txt
-  SETTINGS_SH: scripts/init-settings.sh
-  WIFI_SETTINGS: scripts/wifi-settings.sh
-  PACKAGES_SH: scripts/packages.sh
-  INSTALL5G_SH: scripts/install-5G.sh
-  CLASH_CORE_SH: scripts/preset-clash-core-arm64-L.sh
-  RUST_SH: scripts/rust.sh
+  CONFIG_5G: configs/Packages-5G.txt
+  SETTINGS_SH: cripts/init-settings.sh
+  WIFI_SETTINGS: cripts/wifi-settings.sh
+  PACKAGES_SH: cripts/packages.sh
+  INSTALL5G_SH: cripts/install-5G.sh
+  CLASH_CORE_SH: cripts/preset-clash-core-arm64-L.sh
+  RUST_SH: cripts/rust.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: false
   UPLOAD_RELEASE: true
