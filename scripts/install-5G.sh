@@ -8,7 +8,13 @@ echo "======================================="
 echo >> feeds.conf.default
 echo 'src-git qmodem https://github.com/FUjr/QModem.git;main' >> feeds.conf.default
 ./scripts/feeds update qmodem
-./scripts/feeds install -a -f -p qmodem
+./scripts/feeds install -a qmodem
+./scripts/feeds install -f qmodem
+echo >> feeds.conf.default
+echo 'src-git 5G https://github.com/Siriling/5G-Modem-Support.git;main' >> feeds.conf.default
+./scripts/feeds update 5G
+./scripts/feeds install -a 5G
+./scripts/feeds install -f 5G
 
 # if [ -d "package/Modem-Support" ]; then
 #     echo "⚠️ 目录 package/Modem-Support 已存在，删除旧版本..."
