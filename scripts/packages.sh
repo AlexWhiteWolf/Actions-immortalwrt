@@ -63,7 +63,7 @@ git clone -b main --depth 1 https://github.com/nikkinikki-org/OpenWrt-momo.git
 git clone -b master --depth 1 https://github.com/QiuSimons/luci-app-daed.git
 
 #modem
-git clone -b main --depth 1 https://github.com/FUjr/modem_feeds.git package/modem_feeds
+git clone -b main --depth 1 https://github.com/FUjr/modem_feeds.git
 
 popd
 
