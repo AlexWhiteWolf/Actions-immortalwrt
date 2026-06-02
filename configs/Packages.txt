@@ -83,6 +83,9 @@ CONFIG_PACKAGE_luci-i18n-qmodem-sms-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-qmodem-zh-cn=y
 # 内核组件
 CONFIG_PACKAGE_kmod-mhi-bus=y
+CONFIG_PACKAGE_kmod-mhi=y
+CONFIG_PACKAGE_kmod-mhi-wwan-ctrl=y
+CONFIG_PACKAGE_kmod-mhi-wwan-mbim=y
 CONFIG_PACKAGE_kmod-mhi-pci-generic=y
 # 5G模组信号插件
 # CONFIG_PACKAGE_ext-rooter-basic is not set
