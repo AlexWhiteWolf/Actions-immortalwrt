@@ -15,7 +15,8 @@ if [ -d "package/Modem-Support" ]; then
      rm -rf package/Modem-Support
  fi
 
- git clone --depth=1 https://github.com/Siriling/5G-Modem-Support package/Modem-Support
+git clone --depth=1 https://github.com/QMODEM/quectel-CM-5G.git package/quectel-CM-5G
+git clone --depth=1 https://github.com/Siriling/5G-Modem-Support package/Modem-Support
  if [ $? -ne 0 ]; then
      echo "❌ Git 克隆失败！请检查网络连接或仓库地址"
      exit 1
