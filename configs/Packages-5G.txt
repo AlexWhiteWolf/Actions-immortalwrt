@@ -20,6 +20,8 @@ CONFIG_PACKAGE_kmod-mhi-pci-generic=y
 
 # 5G模组信号插件
 # CONFIG_PACKAGE_ext-rooter-basic is not set
+CONFIG_PACKAGE_luci-app-modemdata=y
+CONFIG_PACKAGE_modemdata=y
         
 # 5G模组短信插件
 CONFIG_PACKAGE_luci-app-sms-tool=y
