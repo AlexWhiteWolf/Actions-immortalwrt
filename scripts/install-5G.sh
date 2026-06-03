@@ -7,8 +7,8 @@ echo "======================================="
 # 1. 克隆 5G Modem 支持库
 echo >> feeds.conf.default
 echo 'src-git qmodem https://github.com/FUjr/QModem.git;main' >> feeds.conf.default
-./scripts/feeds update qmodem
-./scripts/feeds install -a -f -p qmodem
+./scripts/feeds update
+./scripts/feeds install -a -f -p
 
 # if [ -d "package/Modem-Support" ]; then
 #      echo "⚠️ 目录 package/Modem-Support 已存在，删除旧版本..."
