@@ -1,0 +1,7 @@
+后台地址192.168.8.1
+1.刷完immortalwrt-zbtlink_zbt-z8102ax-v2-squashfs-sysupgrade.bin
+后uboot下命令刷回mt7981_eeprom_mt7976_dbdc.bin到Factory 分区
+2.登录后台连上网安装kmod-mtd-rw后上传mt7981_eeprom_mt7976_dbdc.bin到tmp目录下cd /tmp
+使用dd if=/tmp/mt7981_eeprom_mt7976_dbdc.bin of=/dev/mtd2
+3.上传mt7981_eeprom_mt7976_dbdc.bin到lib\firmware\mediatek\目录下
+刷完无wifi复选项的话任选以上方法之一操作即可出现wifi选项，操作完需要重启
