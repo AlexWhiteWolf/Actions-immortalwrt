@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: mtk_filogic
+name: mtk_filogic-modemdata
 
 permissions: write-all
 #开启写权限，防止无法上传到release
